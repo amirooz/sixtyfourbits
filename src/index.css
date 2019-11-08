@@ -219,6 +219,19 @@ footer .footer-copyright a {
   z-index: -1;
 }
 
+.sidenav li,
+.sidenav li>a {
+  height: 56px;
+  line-height: 56px;
+}
+
+.sidenav li:first-child {
+  border: 1px solid #eee;
+}
+
+.sidenav li>a img {
+  padding: 18px 0;
+}
 /*================= Contact Us ===============*/
 .location {
   height: 500px;
