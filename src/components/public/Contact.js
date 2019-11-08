@@ -62,7 +62,7 @@ class Contact extends Component {
                                     <div className="row">
                                         <div className="input-field col s12">
                                         <textarea id="message" className="materialize-textarea"></textarea>
-                                        <label for="message">Message</label>
+                                        <label htmlFor="message">Message</label>
                                         </div>
                                     </div>
                                     <div className="row">
