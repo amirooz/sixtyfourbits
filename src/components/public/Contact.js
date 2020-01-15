@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Contactimg from '../media/img/contact_us.svg'
 import M from 'materialize-css/dist/js/materialize.min.js'
 
 class Contact extends Component {
@@ -25,31 +26,28 @@ class Contact extends Component {
                 <section className="query">
                     <div className="container">
                         <div className="row">
-                            <div className="col s12 m6">
-                                <p>
-                                    <span className="large material-icons">email</span>
-                                    info@sixtyfourbits.com
-                                </p>
+                            <div className="col s12 m6 bg-image">
+                                <img src={Contactimg} alt="Contact" />
                             </div>
                             <div className="col s12 m6 contact-form">
                                 <form className="col s12">
                                     <div className="row">
                                         <div className="input-field col s6">
-                                            <input id="first_name" type="text" className="validate" />
+                                            <input id="first_name" type="text" />
                                             <label htmlFor="first_name">First Name</label>
                                         </div>
                                         <div className="input-field col s6">
-                                            <input id="last_name" type="text" className="validate" />
+                                            <input id="last_name" type="text" />
                                             <label htmlFor="last_name">Last Name</label>
                                         </div>
                                     </div>
                                     <div className="row">
                                         <div className="input-field col s6">
-                                            <input id="company" type="text" className="validate" />
+                                            <input id="company" type="text" />
                                             <label htmlFor="company">Company</label>
                                         </div>
                                         <div className="input-field col s6">
-                                            <input id="phone" type="text" className="validate" />
+                                            <input id="phone" type="text" />
                                             <label htmlFor="phone">Phone</label>
                                         </div>
                                     </div>
@@ -60,14 +58,8 @@ class Contact extends Component {
                                         </div>
                                     </div>
                                     <div className="row">
-                                        <div className="input-field col s12">
-                                        <textarea id="message" className="materialize-textarea"></textarea>
-                                        <label htmlFor="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div className="row">
                                         <div className="col m12">
-                                        <p className="right-align"><button className="btn btn-large waves-effect waves-light orange lighten-1" type="button" name="action">Send Message</button></p>
+                                        <p className="right-align"><button className="btn btn-large waves-effect waves-light baseColor" type="button" name="action">Send Message</button></p>
                                         </div>
                                     </div>
                                 </form>
@@ -81,13 +73,97 @@ class Contact extends Component {
                         <div className="row">
                             <div className="col s12">
                                 <ul id="tabs-swipe-demo" className="tabs">
-                                    <li className="tab col s4"><a className="active" href="#america">United States</a></li>
-                                    <li className="tab col s4"><a href="#australia">Australia</a></li>
-                                    <li className="tab col s4"><a href="#bangladesh"> Bangladesh</a></li>
+                                    <li className="tab col s4"><a className="active base-text" href="#america"><b>USA</b></a></li>
+                                    <li className="tab col s4"><a className="base-text" href="#australia"><b>AU</b></a></li>
+                                    <li className="tab col s4"><a className="base-text" href="#bangladesh"><b>BD</b></a></li>
                                 </ul>
-                                <div id="america" className="blue location">Test 1</div>
-                                <div id="australia" className="red location">Test 2</div>
-                                <div id="bangladesh" className="green location">Test 3</div>
+                                <div id="america" className="location base-bg">
+                                    <div className="row">
+                                        <div className="col m4">
+                                            <div className="address">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><i className="material-icons">room</i></td>
+                                                            <td>3761 S Hill St, LA, CA 90007 U.S.A.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">mail</i></td>
+                                                            <td>info@techbird.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">phone</i></td>
+                                                            <td>+71656565595</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">public</i></td>
+                                                            <td>www.techbird.com</td>
+                                                        </tr>
+                                                    </tbody>                                                    
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div className="col m8">Map</div>
+                                    </div>
+                                </div>
+                                <div id="australia" className="location base-bg">
+                                    <div className="row">
+                                        <div className="col m4">
+                                            <div className="address">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><i className="material-icons">room</i></td>
+                                                            <td>3761 S Hill St, LA, CA 90007 U.S.A.</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">mail</i></td>
+                                                            <td>info@techonus.com.au</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">phone</i></td>
+                                                            <td>+71656565595</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">public</i></td>
+                                                            <td>www.techonus.com.au</td>
+                                                        </tr>
+                                                    </tbody>                                                    
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div className="col m8">Map</div>
+                                    </div>
+                                </div>
+                                <div id="bangladesh" className="location base-bg">
+                                    <div className="row">
+                                        <div className="col m4">
+                                            <div className="address">
+                                                <table>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><i className="material-icons">room</i></td>
+                                                            <td>H-133, R-4, Banani, Dhaka - 1213</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">mail</i></td>
+                                                            <td>info@sixtyfourbits.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">phone</i></td>
+                                                            <td>+71656565595</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><i className="material-icons">public</i></td>
+                                                            <td>www.sixtyfourbits.com</td>
+                                                        </tr>
+                                                    </tbody>                                                    
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div className="col m8">Map</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

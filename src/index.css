@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.2rem;
+  font-weight: 200;
   line-height: 1.5;
 }
 
@@ -20,9 +21,16 @@ code {
     monospace;
 }
 /*====================Base Colors ==================*/
+.base-text {
+  color: #313351!important;
+}
 .baseColor {
-  background-color: #313351;
+  background-color: #2e4360;
   color: #ffffff;
+}
+.baseColor:hover {
+  color: #313351;
+  background-color: #ffffff;
 }
 .secondColor {
   background-color: #ffa726;
@@ -31,6 +39,12 @@ code {
 .thirdColor {
   background-color: #fce431;
   color: #000000;
+}
+.base-bg {
+  background-color: #2e4360;
+}
+.parent-bg {
+  background: #f1f1f1;
 }
 /*==================== End Colors #fd7f21==================*/
 .header-section {
@@ -59,7 +73,7 @@ footer .logo img {
 }
 
 section {
-  padding-top: 70px;
+  padding: 50px 0;
 }
 
 .banner img {
@@ -68,14 +82,14 @@ section {
   height: auto;
 }
 
-.blocks.title.border.top:before, 
+.blocks.title.border.top:before,
 .blocks.title.border.bottom:after {
   content: '';
 }
 
-.blocks.title:before, 
+.blocks.title:before,
 .blocks.title:after {
-  content: none; 
+  content: none;
   display: block;
   width: 60px;
   height: 4px;
@@ -189,7 +203,7 @@ footer ul li {
 footer h5 {
   font-size: 15px;
   font-weight: 600;
-  color: #616161;
+  color: #313351;
   word-break: break-word;
 }
 
@@ -205,7 +219,7 @@ footer h5 {
 footer .footer-copyright a {
   padding-left: 20px;
 }
-   
+
 /* ---- particles.js container ---- */
 
 .particles {
@@ -219,37 +233,36 @@ footer .footer-copyright a {
   z-index: -1;
 }
 
-.sidenav li,
-.sidenav li>a {
-  height: 56px;
-  line-height: 56px;
-}
-
-.sidenav li:first-child {
-  border: 1px solid #eee;
-}
-
-.sidenav li>a img {
-  padding: 18px 0;
-}
 /*================= Contact Us ===============*/
+
 .location {
   height: 500px;
 }
-.map ul {
-  border-top: 2px solid #eee;
-  border-left: 2px solid #eee;
-  border-right: 2px solid #eee;
+
+.contact .query img {
+  width: 100%;
 }
 
-@media only screen and (max-width: 420px) {
-  .header-section {
-    padding: 100px 0;
+.contact .query .contact-form .input-field>label,
+.contact .query .contact-form .input-field>label.active {
+  color: #313351;
+}
+
+.contact .query .contact-form input {
+  border-bottom: 1px solid #313351;
+}
+
+.contact .query .contact-form input:focus {
+  color: #313351;
+  border-bottom: 1px solid #313351!important;
+  box-shadow: 0 1px 0 0 #313351;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact .query .contact-form {
+    padding: 2em 0 0 5em;
   }
-  nav .sidenav-trigger {
-    padding: 3px 0;
-  }
-  .blocks.qualities > div {
-    padding: 0 10px;
+  .contact .map ul.tabs {
+    border: 1px solid #eeeeee;
   }
 }

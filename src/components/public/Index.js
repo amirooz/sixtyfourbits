@@ -21,7 +21,7 @@ class Home extends Component {
 
                 <div className="container header-section">
                     <div className="row">
-                        <div className="col s11 m10 l7">
+                        <div className="col s12 m10 l7">
                             <div className="blocks title border top bottom">
                                 <h2 className="title white-text">Creating the ultimate customer
                                     experience through integrated
@@ -36,7 +36,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row banner">
                             <div className="col s12 m6">
-                                <div className="blocks title border top bottom mb-40">
+                                <div className="blocks title border top bottom">
                                     <h2 className="title">Committed to <br /> Effectiveness</h2>					
                                 </div>                           
                             </div>

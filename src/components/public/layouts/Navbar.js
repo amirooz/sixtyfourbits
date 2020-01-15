@@ -19,7 +19,7 @@ class Navbar extends Component {
             <div>
                 <nav className="nav-wrapper white">
                     <div className="container">
-                        <Link to="/" className="brand-logo logo blue-text"><img src={Logo} alt="Sixtyfour Bits Ltd." /></Link>
+                        <Link to="/" className="brand-logo logo blue-text"><img src={Logo} alt="Sixtyfour Bits" /></Link>
                         <Link to="#" className="sidenav-trigger" data-target="mobile-links">
                             <Icon>menu</Icon>
                         </Link>
@@ -31,7 +31,7 @@ class Navbar extends Component {
                     </div>
                 </nav>
                 <ul className="sidenav" id="mobile-links">
-                    <li><Link to="/" className="brand-logo logo blue-text"><img src={Logo} alt="Sixtyfour Bits Ltd." /></Link></li>
+                    <li><NavLink to="/" className="black-text">Home</NavLink></li>
                     <li><NavLink to="/about" className="black-text">About</NavLink></li>
                     <li><NavLink to="/expertise" className="black-text">Expertise</NavLink></li>
                     <li><NavLink to="/contact" className="black-text">Contact</NavLink></li>
