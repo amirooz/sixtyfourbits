@@ -266,3 +266,18 @@ footer .footer-copyright a {
     border: 1px solid #eeeeee;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .header-section {
+    padding: 110px 0;
+  }
+  .work-process .blocks.features .col {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header-section {
+    padding: 90px 0;
+  }
+}
