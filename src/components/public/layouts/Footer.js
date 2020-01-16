@@ -137,7 +137,7 @@ class Footer extends Component {
                 <div className="footer-copyright">
                     <div className="container base-text">
                         <span className="copyright">
-                            © Sixtyfourbits 2019
+                            © Sixtyfourbits 2020
                         </span>
                         <span className="right hide-on-med-and-down">
                             <Link to="/" className="base-text">Sitemap</Link>
