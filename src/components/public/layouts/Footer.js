@@ -7,9 +7,14 @@ import Magento from '../../media/img/magento-developer-badges.png'
 
 class Footer extends Component {
     componentDidMount() {
-        var elems = document.querySelectorAll('.collapsible')
+        let elems = document.querySelectorAll('.collapsible')
         // eslint-disable-next-line
-        var instances = M.Collapsible.init(elems)
+        let instances = M.Collapsible.init(elems)
+
+        let social = document.querySelectorAll('.fixed-action-btn');
+        M.FloatingActionButton.init(social, {
+            direction: 'bottom',
+        });
     }
     render() {
         return (
@@ -20,6 +25,7 @@ class Footer extends Component {
                             <div className="logo">
                                 <img src={Logo} alt="Sixtyfour Bits" />
                             </div>
+                            
                             <div className="badge">
                                 <img src={Magento} alt="Magento Partner" />
                             </div>
@@ -66,7 +72,6 @@ class Footer extends Component {
                                 <li><Link to="/" className="base-text">Facebook</Link></li>
                                 <li><Link to="/" className="base-text">Instagram</Link></li>
                                 <li><Link to="/" className="base-text">Twitter</Link></li>
-                                <li><Link to="/" className="base-text">Snapchat</Link></li>
                                 <li><Link to="/" className="base-text">Youtube</Link></li>
                                 <li><Link to="/" className="base-text">Linkedin</Link></li>
                                 <li><Link to="/" className="base-text">Skype</Link></li>
@@ -123,7 +128,6 @@ class Footer extends Component {
                                             <li><Link to="/" className="base-text">Facebook</Link></li>
                                             <li><Link to="/" className="base-text">Instagram</Link></li>
                                             <li><Link to="/" className="base-text">Twitter</Link></li>
-                                            <li><Link to="/" className="base-text">Snapchat</Link></li>
                                             <li><Link to="/" className="base-text">Youtube</Link></li>
                                             <li><Link to="/" className="base-text">Linkedin</Link></li>
                                             <li><Link to="/" className="base-text">Skype</Link></li>
@@ -139,6 +143,7 @@ class Footer extends Component {
                         <span className="copyright">
                             © Sixtyfourbits 2020
                         </span>
+                        
                         <span className="right hide-on-med-and-down">
                             <Link to="/" className="base-text">Sitemap</Link>
                             <Link to="/" className="base-text">Privacy & Cookies</Link>
@@ -147,6 +152,18 @@ class Footer extends Component {
                             <Link to="/" className="base-text">Safety & eco</Link>
                         </span>           
                     </div>
+                </div>
+                <div className="fixed-action-btn">
+                    <span className="btn-floating base-bg">
+                        <i className="material-icons">explore</i>
+                    </span>
+                    <ul>
+                        <li><Link to="/" className="btn-floating blue"><strong>IN</strong></Link></li>
+                        <li><Link to="/" className="btn-floating red accent-3"><i className="material-icons">play_arrow</i></Link></li>
+                        <li><Link to="/" className="btn-floating blue"><i className="material-icons">title</i></Link></li>
+                        <li><Link to="/" className="btn-floating red"><i className="material-icons">photo_camera</i></Link></li>
+                        <li><Link to="/" className="btn-floating blue"><strong>F</strong></Link></li>
+                    </ul>
                 </div>
             </footer>    
         )
