@@ -43,7 +43,7 @@ code {
 .base-bg {
   background-color: #2e4360;
 }
-.base-bg:hover, .base-bg:focus {
+.base-bg-hover:hover, .base-bg-hover:focus {
   background-color: #ffa726;
 }
 .parent-bg {
@@ -261,12 +261,14 @@ footer .footer-copyright a {
   box-shadow: 0 1px 0 0 #313351;
 }
 
+
+.contact .map ul.tabs {
+  border: 1px solid #eeeeee;
+}
+
 @media only screen and (min-width: 768px) {
   .contact .query .contact-form {
     padding: 2em 0 0 5em;
-  }
-  .contact .map ul.tabs {
-    border: 1px solid #eeeeee;
   }
 }
 
