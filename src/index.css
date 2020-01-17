@@ -283,4 +283,7 @@ footer .footer-copyright a {
   .header-section {
     padding: 90px 0;
   }
+  .work-process .blocks.features .col {
+    padding: 2rem 0;
+  }
 }
