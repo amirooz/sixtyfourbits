@@ -25,10 +25,6 @@ class Footer extends Component {
                             <div className="logo">
                                 <img src={Logo} alt="Sixtyfour Bits" />
                             </div>
-                            
-                            <div className="badge">
-                                <img src={Magento} alt="Magento Partner" />
-                            </div>
                         </div>
                         <div className="col s12 m2 hide-on-small-only">
                             <h5>Company</h5>
@@ -154,7 +150,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="fixed-action-btn">
-                    <span className="btn-floating base-bg">
+                    <span className="btn-floating base-bg base-bg-hover">
                         <i className="material-icons">explore</i>
                     </span>
                     <ul>
