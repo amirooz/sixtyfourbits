@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import { Icon } from './Icon'
 import Logo from '../../media/img/sixtyfour.png'
 import M from 'materialize-css/dist/js/materialize.min.js'
-import Magento from '../../media/img/magento-developer-badges.png'
+// import Magento from '../../media/img/magento-developer-badges.png'
 
 class Footer extends Component {
     componentDidMount() {
