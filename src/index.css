@@ -22,14 +22,14 @@ code {
 }
 /*====================Base Colors ==================*/
 .base-text {
-  color: #313351!important;
+  color: #2e4360!important;
 }
 .baseColor {
   background-color: #2e4360;
   color: #ffffff;
 }
 .baseColor:hover {
-  color: #313351;
+  color: #2e4360;
   background-color: #ffffff;
 }
 .secondColor {
@@ -248,19 +248,25 @@ footer .footer-copyright a {
 
 .contact .query .contact-form .input-field>label,
 .contact .query .contact-form .input-field>label.active {
-  color: #313351;
+  color: #2e4360;
 }
 
-.contact .query .contact-form input {
-  border-bottom: 1px solid #313351;
+.contact .query .contact-form input,
+.contact .query .contact-form textarea {
+  border-bottom: 1px solid #2e4360;
 }
 
-.contact .query .contact-form input:focus {
-  color: #313351;
-  border-bottom: 1px solid #313351!important;
-  box-shadow: 0 1px 0 0 #313351;
+.contact .query .contact-form input:focus,
+.contact .query .contact-form textarea:focus {
+  color: #2e4360;
+  border-bottom: 1px solid #2e4360!important;
+  box-shadow: 0 1px 0 0 #2e4360;
 }
 
+.contact .query .contact-form .input-field.col {
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 .contact .map ul.tabs {
   border: 1px solid #eeeeee;
@@ -268,7 +274,7 @@ footer .footer-copyright a {
 
 @media only screen and (min-width: 768px) {
   .contact .query .contact-form {
-    padding: 2em 0 0 5em;
+    padding: 0 0 0 5em;
   }
 }
 

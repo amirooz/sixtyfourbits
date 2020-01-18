@@ -36,7 +36,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row banner">
                             <div className="col s12 m6">
-                                <div className="blocks title border top bottom">
+                                <div className="blocks title border top bottom mb-40 pa-25">
                                     <h2 className="title">Committed to <br /> Effectiveness</h2>					
                                 </div>                           
                             </div>

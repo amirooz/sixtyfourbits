@@ -5,7 +5,7 @@
     padding: 50px 0;
 }
 .effectiveness {
-    padding: 130px 0;
+    padding: 90px 0;
 }
 /* .contact .header {
     background-image: url(../img/bg-say-hello-to-us_lg.png);
@@ -42,11 +42,17 @@
     background-size: cover;
     padding: 200px 0;
 }
+.m-t-50 {
+    margin-top: -50px!important;
+}
 .mb-40 {
     margin-bottom: 40px;
 }
+.pa-25 {
+    padding: 25px 0;
+}
 .p-30 {
-    padding: 130px;
+    padding: 30px;
 }
 ::selection {
     background: #eeeeee; /* WebKit/Blink Browsers */

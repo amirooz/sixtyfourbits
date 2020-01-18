@@ -58,6 +58,12 @@ class Contact extends Component {
                                         </div>
                                     </div>
                                     <div className="row">
+                                        <div className="input-field col s12">
+                                        <textarea id="message" class="materialize-textarea"></textarea>
+                                        <label htmlFor="message">Message</label>
+                                        </div>
+                                    </div>
+                                    <div className="row">
                                         <div className="col m12">
                                         <p className="right-align"><button className="btn btn-large waves-effect waves-light baseColor" type="button" name="action">Send Message</button></p>
                                         </div>
@@ -68,7 +74,7 @@ class Contact extends Component {
                     </div>
                 </section>
 
-                <section className="map">
+                <section className="map m-t-50">
                     <div className="container">
                         <div className="row">
                             <div className="col s12">
@@ -85,7 +91,7 @@ class Contact extends Component {
                                                     <tbody>
                                                         <tr>
                                                             <td><i className="material-icons">room</i></td>
-                                                            <td>3761 S Hill St, LA, CA 90007 U.S.A.</td>
+                                                            <td>3761 S Hill St, LA, CA 90007</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">mail</i></td>
@@ -114,7 +120,7 @@ class Contact extends Component {
                                                     <tbody>
                                                         <tr>
                                                             <td><i className="material-icons">room</i></td>
-                                                            <td>3761 S Hill St, LA, CA 90007 U.S.A.</td>
+                                                            <td>3761 S Hill St, LA, CA 90007</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">mail</i></td>
