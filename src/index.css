@@ -43,6 +43,9 @@ code {
 .base-bg {
   background-color: #2e4360;
 }
+.base-bg-hover:hover, .base-bg-hover:focus {
+  background-color: #ffa726;
+}
 .parent-bg {
   background: #f1f1f1;
 }
@@ -258,11 +261,31 @@ footer .footer-copyright a {
   box-shadow: 0 1px 0 0 #313351;
 }
 
+
+.contact .map ul.tabs {
+  border: 1px solid #eeeeee;
+}
+
 @media only screen and (min-width: 768px) {
   .contact .query .contact-form {
     padding: 2em 0 0 5em;
   }
-  .contact .map ul.tabs {
-    border: 1px solid #eeeeee;
+}
+
+@media only screen and (max-width: 420px) {
+  .header-section {
+    padding: 110px 0;
+  }
+  .work-process .blocks.features .col {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header-section {
+    padding: 90px 0;
+  }
+  .work-process .blocks.features .col {
+    padding: 2rem 0;
   }
 }

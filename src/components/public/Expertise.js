@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Contactimg from '../media/img/cloud_devops.svg'
 import Cloud from '../media/img/cloud_devops.svg'
 import OpenSource from '../media/img/open_source.svg'
 import Ecommerce from '../media/img/ecommerce.svg'

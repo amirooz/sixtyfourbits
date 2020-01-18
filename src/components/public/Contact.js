@@ -103,7 +103,7 @@ class Contact extends Component {
                                                 </table>
                                             </div>
                                         </div>
-                                        <div className="col m8">Map</div>
+                                        <div className="col m8 hide-on-small-only">Map</div>
                                     </div>
                                 </div>
                                 <div id="australia" className="location base-bg">
@@ -132,7 +132,7 @@ class Contact extends Component {
                                                 </table>
                                             </div>
                                         </div>
-                                        <div className="col m8">Map</div>
+                                        <div className="col m8 hide-on-small-only">Map</div>
                                     </div>
                                 </div>
                                 <div id="bangladesh" className="location base-bg">
@@ -161,7 +161,7 @@ class Contact extends Component {
                                                 </table>
                                             </div>
                                         </div>
-                                        <div className="col m8">Map</div>
+                                        <div className="col m8 hide-on-small-only">Map</div>
                                     </div>
                                 </div>
                             </div>
