@@ -154,7 +154,7 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="fixed-action-btn">
-                    <span className="btn-floating base-bg">
+                    <span className="btn-floating base-bg base-bg-hover">
                         <i className="material-icons">explore</i>
                     </span>
                     <ul>
