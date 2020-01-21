@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import { Icon } from './Icon'
 import Logo from '../../media/img/sixtyfour.png'
 import M from 'materialize-css/dist/js/materialize.min.js'
-// import Magento from '../../media/img/magento-developer-badges.png'
+import Magento from '../../media/img/magento-developer-badges.png'
 
 class Footer extends Component {
     componentDidMount() {
@@ -24,6 +24,10 @@ class Footer extends Component {
                         <div className="col s12 m4 hide-on-small-only">
                             <div className="logo">
                                 <img src={Logo} alt="Sixtyfour Bits" />
+                            </div>
+                            
+                            <div className="badge">
+                                <img src={Magento} alt="Magento Partner" />
                             </div>
                         </div>
                         <div className="col s12 m2 hide-on-small-only">
@@ -150,15 +154,15 @@ class Footer extends Component {
                     </div>
                 </div>
                 <div className="fixed-action-btn">
-                    <span className="btn-floating base-bg base-bg-hover">
-                        <i className="material-icons">power</i>
+                    <span className="btn-floating base-bg">
+                        <i className="material-icons">explore</i>
                     </span>
                     <ul>
-                        <li><Link to="/" className="btn-floating blue"><strong>IN</strong></Link></li>
-                        <li><Link to="/" className="btn-floating red accent-3"><i className="material-icons">play_arrow</i></Link></li>
-                        <li><Link to="/" className="btn-floating blue"><i className="material-icons">title</i></Link></li>
-                        <li><Link to="/" className="btn-floating red"><i className="material-icons">photo_camera</i></Link></li>
-                        <li><Link to="/" className="btn-floating blue"><strong>F</strong></Link></li>
+                        <li><Link to="/" className="waves-effect waves-light light-blue btn-floating"><i className="fa fa-linkedin"></i></Link></li>
+                        <li><Link to="/" className="waves-effect waves-light red btn-floating"><i className="fa fa-youtube"></i></Link></li>
+                        <li><Link to="/" className="waves-effect waves-light blue btn-floating"><i className="fa fa-twitter"></i></Link></li>
+                        <li><Link to="/" className="waves-effect waves-light pink btn-floating"><i className="fa fa-instagram"></i></Link></li>
+                        <li><a href="https://www.facebook.com/sixtyfourio" className="waves-effect waves-light indigo btn-floating"><i className="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
             </footer>    
