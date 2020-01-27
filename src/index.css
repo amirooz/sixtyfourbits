@@ -62,6 +62,10 @@ nav {
   box-shadow: none;
 }
 
+nav .sidenav-trigger span {
+  padding: 16px 0;
+}
+
 .logo img {
   width: 100%;
   max-width: 200px;
