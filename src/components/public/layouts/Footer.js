@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import { Icon } from './Icon'
 import Logo from '../../media/img/sixtyfour.png'
 import M from 'materialize-css/dist/js/materialize.min.js'
-import Magento from '../../media/img/magento-developer-badges.png'
+// import Magento from '../../media/img/magento-developer-badges.png'
 
 class Footer extends Component {
     componentDidMount() {
@@ -26,9 +26,9 @@ class Footer extends Component {
                                 <img src={Logo} alt="Sixtyfour Bits" />
                             </div>
                             
-                            <div className="badge">
+                            {/* <div className="badge">
                                 <img src={Magento} alt="Magento Partner" />
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col s12 m2 hide-on-small-only">
                             <h5>Company</h5>
@@ -155,7 +155,7 @@ class Footer extends Component {
                 </div>
                 <div className="fixed-action-btn">
                     <span className="btn-floating base-bg base-bg-hover">
-                        <i className="material-icons">explore</i>
+                        <i className="material-icons">power</i>
                     </span>
                     <ul>
                         <li><Link to="/" className="waves-effect waves-light light-blue btn-floating"><i className="fa fa-linkedin"></i></Link></li>
