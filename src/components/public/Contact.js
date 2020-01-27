@@ -120,7 +120,7 @@ class Contact extends Component {
                                                     <tbody>
                                                         <tr>
                                                             <td><i className="material-icons">room</i></td>
-                                                            <td>3761 S Hill St, LA, CA 90007</td>
+                                                            <td>Unit: 409/48 Atchison, St Leonard's< br/> Sydney. NSW 2065</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">mail</i></td>
@@ -128,7 +128,7 @@ class Contact extends Component {
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">phone</i></td>
-                                                            <td>+71656565595</td>
+                                                            <td>0450137890</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">public</i></td>
