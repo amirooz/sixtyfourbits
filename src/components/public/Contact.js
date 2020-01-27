@@ -120,7 +120,7 @@ class Contact extends Component {
                                                     <tbody>
                                                         <tr>
                                                             <td><i className="material-icons">room</i></td>
-                                                            <td>Unit: 409/48 Atchison, St Leonard's< br/> Sydney. NSW 2065</td>
+                                                            <td>409/48 Atchison, St Leonard's< br/> Sydney. NSW 2065</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">mail</i></td>
