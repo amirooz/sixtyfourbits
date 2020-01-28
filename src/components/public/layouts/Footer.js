@@ -15,6 +15,12 @@ class Footer extends Component {
         M.FloatingActionButton.init(social, {
             direction: 'bottom',
         });
+
+        let terms = document.querySelectorAll('.modal');
+        M.Modal.init(terms);
+
+        let privacy = document.querySelectorAll('.modal');
+        M.Modal.init(privacy);
     }
     render() {
         return (
@@ -146,15 +152,13 @@ class Footer extends Component {
                         
                         <span className="right hide-on-med-and-down">
                             <Link to="/" className="base-text">Sitemap</Link>
-                            <Link to="/" className="base-text">Privacy & Cookies</Link>
-                            <Link to="/" className="base-text">Terms of use</Link>
-                            <Link to="/" className="base-text">Trademarks</Link>
-                            <Link to="/" className="base-text">Safety & eco</Link>
+                            <Link to="#privacy" className="base-text modal-trigger" data-target="privacy">Privacy & Cookies</Link>
+                            <Link to="#terms" className="base-text modal-trigger" data-target="terms">Terms of use</Link>
                         </span>           
                     </div>
                 </div>
                 <div className="fixed-action-btn">
-                    <span className="btn-floating base-bg base-bg-hover">
+                    <span className="btn-floating base-bg base-bg-hover pulse">
                         <i className="material-icons">power</i>
                     </span>
                     <ul>
@@ -165,7 +169,28 @@ class Footer extends Component {
                         <li><a href="https://www.facebook.com/sixtyfourio" className="waves-effect waves-light indigo btn-floating"><i className="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
+
+                <div id="terms" className="modal center-align base-text">
+                    <div className="modal-content">
+                        <h4>Terms of use</h4>
+                        <p>Sixtyfourbits is a successful startup company established in North Sydney, Australia. It has started it’s journey with develop E-commerce & Marketplace, Opensource Integrations but now established as one of the growing software company in the international market. After successful business operation is North Sydney, we’re going to open our Branch in Dhaka, New York, Kualalumpur & Colombo.</p>
+                        <p> Currently we’re working for individual companies & our own product development to hold our position in competitive market. We’re providing service for office automation, web & mobile application development, Cloud & DevOps, E-commerce & Marketplace, Opensource Integrations, ERP, Machine Learning and AI, digital marketing & advertising, digitalization & so on.</p>
+                        <p> We help large-medium-small companies improve their customer experience using information technology. Sixtyfourbits believes that linking people, technology and organisations is the ultimate future and only way to make the world smart.</p>
+                    </div>
+                </div>
+
+                <div id="privacy" className="modal center-align base-text">
+                    <div className="modal-content">
+                        <h4>Privacy & Cookies</h4>
+                        <p>Sixtyfourbits is a successful startup company established in North Sydney, Australia. It has started it’s journey with develop E-commerce & Marketplace, Opensource Integrations but now established as one of the growing software company in the international market. After successful business operation is North Sydney, we’re going to open our Branch in Dhaka, New York, Kualalumpur & Colombo.</p>
+                        <p> Currently we’re working for individual companies & our own product development to hold our position in competitive market. We’re providing service for office automation, web & mobile application development, Cloud & DevOps, E-commerce & Marketplace, Opensource Integrations, ERP, Machine Learning and AI, digital marketing & advertising, digitalization & so on.</p>
+                        <p> We help large-medium-small companies improve their customer experience using information technology. Sixtyfourbits believes that linking people, technology and organisations is the ultimate future and only way to make the world smart.</p>
+                    </div>
+                </div>
+
             </footer>    
+
+            
         )
     }
 }

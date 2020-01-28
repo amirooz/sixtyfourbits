@@ -83,6 +83,9 @@ section {
   padding: 50px 0;
 }
 
+.modal-content {
+  font-size: 1rem;
+}
 .banner img {
   max-width: 1366px;
   width: 100%;
