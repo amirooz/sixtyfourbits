@@ -157,7 +157,7 @@ class Contact extends Component {
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">phone</i></td>
-                                                            <td>+71656565595</td>
+                                                            <td>+880-1830077330</td>
                                                         </tr>
                                                         <tr>
                                                             <td><i className="material-icons">public</i></td>

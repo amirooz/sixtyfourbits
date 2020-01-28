@@ -17,6 +17,12 @@
 .about .header .blocks {
     padding: 130px 0;
 }
+.about .journey {
+    background-image: url(../img/bg-our-journey_lg.png);
+    background-position: left bottom;
+    background-size: initial;
+    padding: 180px 0;
+}
 
 .contact .header {
     background-image: url(../img/contact-us.jpg);
@@ -41,6 +47,9 @@
 .m-t-50 {
     margin-top: -50px!important;
 }
+.mb-20 {
+    margin-bottom: 20px;
+}
 .mb-40 {
     margin-bottom: 40px;
 }
@@ -60,5 +69,12 @@
 @media only screen and (max-width: 420px) {
     .effectiveness {
       padding: 50px 0;
+    }
+    .about .header .blocks {
+        padding: 50px 0;
+    }
+    .about .journey {
+        background-image: none;
+        padding: 90px 0;
     }
   }
