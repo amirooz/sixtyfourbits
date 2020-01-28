@@ -116,14 +116,10 @@ section {
 
 .blocks.qualities,
 .blocks.values {
-  padding: 150px 0;
+  padding: 90px 0;
 }
 
-.blocks.qualities > div {
-  float: left;
-  padding: 0 30px;
-}
-
+.blocks.qualities > div,
 .blocks.values > div {
   float: left;
   padding-right: 30px;
@@ -309,6 +305,13 @@ footer .footer-copyright a {
   }
   .work-process .blocks.features .col {
     padding: 1rem 0;
+  }
+  .blocks.qualities .heading,
+  .blocks.values .heading {
+    padding-bottom: 10px;
+  }
+  .blocks.values > .col {
+    padding: 20px 0;
   }
 }
 

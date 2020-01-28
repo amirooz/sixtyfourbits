@@ -51,7 +51,7 @@ class Home extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col s12">
-                                <div className="blocks title border bottom bd-white">
+                                <div className="blocks title border bottom bd-white mb-40">
                                     <h2 className="title">Key Qualities</h2>
                                 </div>                                
                             </div>

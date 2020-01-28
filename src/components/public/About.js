@@ -213,7 +213,7 @@ class About extends Component {
                                 </div>                           
                             </div>
                             <div className="col s12 m6">
-                                <p>Sixtyfourbits was founded in 2012 by a group of professionals from the telco industry. The team’s prior experience in telecommunications was successfully used to create customized solutions with the biggest value for our customers. This know-how combined with flexible approach and a passion for innovation and creativity made Sixtyfourbits a trusted partner for system implementation and integration solutions.</p>
+                                <p>Sixtyfourbits was founded in 2018 by a group of professionals from the IT industry. The team’s prior experience in cloud & devops was successfully used to create customized solutions with the biggest value for our customers. This know-how combined with flexible approach and a passion for innovation and creativity made Sixtyfourbits a trusted partner for system implementation and integration solutions.</p>
                             </div>
                         </div>
                     </div>
@@ -223,10 +223,11 @@ class About extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col s12">
-                                <div className="blocks title border bottom">
+                                <div className="blocks title border bottom mb-40">
                                     <h2 className="title">Sixtyfourbits Values</h2>
                                 </div>                                
                             </div>
+
                             <div className="blocks values">
                                 <div className="col s12 m6">
                                     <div className="heading">
