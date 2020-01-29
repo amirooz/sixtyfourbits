@@ -30,7 +30,7 @@ class About extends Component {
                         <div className="row">
                             <div className="col s12 m8 offset-m2 center-align">
                                 <h2>About The Company</h2>
-                                <p>Sixtyfourbits is a successful startup company established in North Sydney, Australia. It has started it’s journey with develop E-commerce & Marketplace, Opensource Integrations but now established as one of the growing software company in the international market. After successful business operation is North Sydney, we’re going to open our Branch in Dhaka, New York, Kualalumpur & Colombo.</p>
+                                <p>Sixtyfourbits is a successful startup company established in Sydney, Australia. It has started it’s journey with develop E-commerce & Marketplace, Opensource Integrations but now established as one of the growing software company in the international market. After successful business operation is Sydney, we’re going to open our Branch in New York, Dhaka, Kuala Lumpur & Colombo.</p>
                                 <p> Currently we’re working for individual companies & our own product development to hold our position in competitive market. We’re providing service for office automation, web & mobile application development, Cloud & DevOps, E-commerce & Marketplace, Opensource Integrations, ERP, Machine Learning and AI, digital marketing & advertising, digitalization & so on.</p>
                                 <p> We help large-medium-small companies improve their customer experience using information technology. Sixtyfourbits believes that linking people, technology and organisations is the ultimate future and only way to make the world smart.</p>
                             </div>
@@ -43,7 +43,7 @@ class About extends Component {
                         <div className="row">
                             <div className="col s12">
                                 <div className="blocks title border bottom mb-20">
-                                    <h2 className="title">Meet the Team</h2>
+                                    <h2 className="title">Meet The Team</h2>
                                 </div>                                
                             </div>
                             <div className="col s12 m9">
@@ -234,7 +234,7 @@ class About extends Component {
                                         <div className="image">
                                             <img src={value1} className="img-responsive" alt="Professionalism" />
                                         </div>									
-                                        <div className="title"><h3>Professionalism</h3></div>								
+                                        <div className="title"><h4>Professionalism</h4></div>								
                                     </div>								
                                     <div className="content">
                                         <p>Being professional means being an expert. That is why we constantly invest in developing the knowledge of our team.</p>
@@ -245,7 +245,7 @@ class About extends Component {
                                         <div className="image">										
                                             <img src={value2} className="img-responsive" alt="Flexibility" />									
                                         </div>									
-                                        <div className="title"><h3>Flexibility</h3></div>								
+                                        <div className="title"><h4>Flexibility</h4></div>								
                                     </div>								
                                     <div className="content">
                                         <p>Being able to adjust and react quickly to the clients’ needs is the winning quality in the fast changing business environment.</p>
@@ -259,7 +259,7 @@ class About extends Component {
                                         <div className="image">										
                                             <img src={value3} className="img-responsive" alt="Responsibility" />									
                                         </div>									
-                                        <div className="title"><h3>Responsibility</h3></div>								
+                                        <div className="title"><h4>Responsibility</h4></div>								
                                     </div>								
                                     <div className="content">
                                         <p>Attention to detail and precision when working on all projects reduce the risk to the minimum and provide measured solutions.</p>
@@ -271,7 +271,7 @@ class About extends Component {
                                         <div className="image">										
                                             <img src={value4} className="img-responsive" alt="Reliability" />									
                                         </div>									
-                                        <div className="title"><h3>Reliability</h3></div>								
+                                        <div className="title"><h4>Reliability</h4></div>								
                                     </div>								
                                     <div className="content">
                                         <p>Long term complex projects require trust and commitment from all partners. We build it on stability and compatibility within our team.</p>

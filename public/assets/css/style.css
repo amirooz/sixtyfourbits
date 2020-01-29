@@ -59,6 +59,27 @@
 .p-30 {
     padding: 30px;
 }
+.ph-1 {
+    padding: 1rem 0;
+}
+.ph-2 {
+    padding: 2rem 0;
+}
+.ph-3 {
+    padding: 3rem 0;
+}
+.ph-4 {
+    padding: 4rem 0;
+}
+.ph-5 {
+    padding: 5rem 0;
+}
+.ph-6 {
+    padding: 6rem 0;
+}
+.ph-7 {
+    padding: 7rem 0;
+}
 ::selection {
     background: #eeeeee; /* WebKit/Blink Browsers */
 }

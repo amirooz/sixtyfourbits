@@ -20,7 +20,7 @@ export class Expertise extends Component {
                     <div className="container">
                         <div className="row banner">
                             <div className="col s12 m6 bg-image">
-                                <img src={Cloud} alt="Cloud & DevOps" />
+                                <img className="ph-7" src={Cloud} alt="Cloud & DevOps" />
                             </div>
                             <div className="col s12 m6">
                                 <h4>Cloud & DevOps</h4>
@@ -54,7 +54,7 @@ export class Expertise extends Component {
                     <div className="container">
                         <div className="row banner">
                             <div className="col s12 m6 bg-image">
-                                <img src={OpenSource} alt="OpenSource Integrations" />
+                                <img className="ph-6" src={OpenSource} alt="OpenSource Integrations" />
                             </div>
                             <div className="col s12 m6">
                                 <h4>OpenSource Integrations</h4>
@@ -88,7 +88,7 @@ export class Expertise extends Component {
                     <div className="container">
                         <div className="row banner">
                             <div className="col s12 m6 bg-image">
-                                <img src={MachineAI} alt="Machine Learning and AI" />
+                                <img className="ph-6" src={MachineAI} alt="Machine Learning and AI" />
                             </div>
                             <div className="col s12 m6">
                                 <h4>Machine Learning and AI</h4>

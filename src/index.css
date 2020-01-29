@@ -116,7 +116,7 @@ section {
 
 .blocks.qualities,
 .blocks.values {
-  padding: 90px 0;
+  padding: 120px 0;
 }
 
 .blocks.qualities > div,
@@ -125,10 +125,13 @@ section {
   padding-right: 30px;
 }
 
-.blocks.qualities .heading,
-.blocks.values .heading {
+.blocks.qualities .heading {
   padding-bottom: 40px;
   border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+
+.blocks.values .heading {
+  padding-bottom: 30px;
 }
 
 .blocks.qualities .image,
@@ -310,8 +313,8 @@ footer .footer-copyright a {
   .blocks.values .heading {
     padding-bottom: 10px;
   }
-  .blocks.values > .col {
-    padding: 20px 0;
+  .blocks.values > .col {    
+    padding: 1.2rem .7rem
   }
 }
 
