@@ -26,6 +26,7 @@
 
 .contact .header {
     background-image: url(../img/contact-us.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0;
@@ -39,10 +40,10 @@
 }
 .expertise .header {
     background-image: url(../img/expertise.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: bottom right;
     background-size: cover;
-    padding: 200px 0;
+    padding: 210px 0;
 }
 .m-t-50 {
     margin-top: -50px!important;
